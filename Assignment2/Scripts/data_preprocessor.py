@@ -76,7 +76,7 @@ def remove_redundant_features(data, threshold=0.9):
     return dropped_data
     
 
-# ---------------------------------------------------
+# Simple Logistic Regression Model
 
 def simple_model(input_data, split_data=True, scale_data=False, print_report=False):
     """
